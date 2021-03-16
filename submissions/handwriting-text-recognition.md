@@ -10,7 +10,8 @@ author: Devi Sandeep Endluri, Chinmayee Rane
 Optical Character Recognition (OCR) is a broad research domain in Pattern Recognition and Computer Vision. OCR electronically converts printed or handwritten text image into a format that machines can recognize. OCR is classified into: (i) offline text recognition, and (ii) online text recognition. If a static text article is scanned and then understood by the computer, it is called offline text recognition. If the text is recognized while writing through a touchpad using a stylus pen, it is called online text recognition. Offline Text Recognition is then further divided into subcategories depending on whether the articles are typed or handwritten. Processing and detecting text from the static handwritten documents is called <b>Handwriting Text Recognition</b> (HTR). HTR is regarded a subfield of OCR and is considered one of the most challenging research problems in image processing and pattern recognition. In this review paper, we summarize the latest research in offline handwriting recognition on documents.
 
 # Use cases
-The field of handwriting recognition has achieved significant real world success in targeted applications. HTR has use cases in Health and Pharmaceuticals, Insurance, Banking etc. Here, we describe one example use case of HTR: A large supplemental insurance provider based in the US [7] faced challenges in extracting vital information from a doctor’s handwritten notes that accounted for 20% of the entire documents. Initially following a manual sifting process through the documents to decide on the claims payout, they elected to automate the process because it took five to six days to approve the claim. As part of the process, they built a solution with Amazon Web Services (AWS) to extract printed and handwritten text from several supporting documents to verify the claim. The solution extracted information from handwritten text from several supporting documents to verify the claim and reduced manual intervention by over 70%. However, the accuracy was low and required human intervention to validate the information, which impacted process efficiency.
+The field of handwriting recognition has achieved significant real-world successes in targeted applications. HTR has use cases in Health and Pharmaceuticals, Insurance, Banking, etc.  A premier example of HTR that we discovered; deciphering a doctor's handwriting and who will be benefitting from it? - A large supplemental insurance provider based in the US [7] faced challenges in extracting vital information from a doctor's handwritten notes that accounted for 20% of the entire documents. Following a manual sifting process through the documents to decide on the claims payout, they elected to automate the process because it took five to six days to approve the claim. As part of the process, they built a solution with [Amazon Web Services (AWS)](https://aws.amazon.com) to extract printed and handwritten text from several supporting documents to verify the claim. The solution extracted information from handwritten text from several supporting documents to verify the claim and reduced manual intervention by over 70%. However, the accuracy was low and required human intervention to validate the information, impacting process efficiency.
+
 
 # Challenges
 Below we list some of the major challenges in the HTR task
@@ -80,7 +81,13 @@ The Sequence-to-Sequence modules proposed for the HTR task are evaluated and com
 
 # Summary
 
-Handwriting Text Recognition has gradually seen significant improvements. The performance of deep learning-based HTR systems attained Character Error Rates below 10%. However, HTR remains a challenging open-ended problem. There is a scope of possible improvement with their own set of complexities, such as: Different styles of handwriting, Poor quality of image captures, Compressed or expanded image captures, Cursive text. Nevertheless, we believe that future works grounded on robustness, adaptability, and computational efficiency could be the basis of improvements in HTR.
+Handwriting Text Recognition has gradually seen significant improvements. The performance of deep learning-based HTR systems attained Character Error Rates below 10%. However, HTR remains a challenging open-ended problem. There is a scope of possible improvement with their own set of complexities, such as: 
+  - Different styles of handwriting
+  - Poor quality of image captures
+  - Compressed or expanded image captures
+  - Cursive text.
+
+Nevertheless, we believe that future works grounded on robustness, adaptability, and computational efficiency can be the basis of improvements in HTR.
 
 # References
 
